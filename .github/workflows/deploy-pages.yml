@@ -34,6 +34,8 @@ jobs:
         run: npm run build
       - name: Support client-side routes
         run: cp app/dist/index.html app/dist/404.html
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
