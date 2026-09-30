@@ -3,6 +3,7 @@
 **/dist/
 **/dist-ssr/
 **/.vite/
+/package-lock.json
 
 # Environment and secrets
 .env

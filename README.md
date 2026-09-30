@@ -15,6 +15,16 @@ npm run dev
 
 Ouvrir ensuite l’adresse affichée par Vite, généralement `http://localhost:5173/`.
 
+## Version publique GitHub Pages
+
+Le workflow `.github/workflows/deploy-pages.yml` publie automatiquement l’application après chaque push sur `main`.
+
+Dans GitHub, ouvrir `Settings > Pages` et choisir `GitHub Actions` comme source si GitHub le demande. Après l’exécution du workflow, l’application sera disponible ici :
+
+```text
+https://juvenalkoudakpo7-sudo.github.io/Globalstay/
+```
+
 ## Vérifier le projet
 
 ```powershell
