@@ -7,7 +7,7 @@ Plateforme mondiale de découverte et de réservation : logements, voitures, res
 Prérequis : Node.js 20.19+.
 
 ```powershell
-git clone <URL_DU_DEPOT>
+git clone https://github.com/juvenalkoudakpo7-sudo/Globalstay.git
 cd Globalstay\app
 npm install
 npm run dev
@@ -28,6 +28,7 @@ https://juvenalkoudakpo7-sudo.github.io/Globalstay/
 ## Vérifier le projet
 
 ```powershell
+cd app
 npm run lint
 npm run build
 ```
